@@ -1,0 +1,50 @@
+body {
+    background-color: #d6b655;
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+h6 {
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12;
+    text-align: left;
+}
+
+ul {
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12;
+    text-align: left;
+}
+
+.footer {
+    position: sticky;
+    background-color: maroon;
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.inline-block {
+    display: inline-block
+}
