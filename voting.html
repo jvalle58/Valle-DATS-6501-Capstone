@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Capstone Voting</title>
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/bootstrap.css" rel="stylesheet" />
+        <!-- Customized CSS theme (overrides Bootstrap)-->
+        <link href="css/custom.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand">DATS 6501: Data Science Capstone</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Visualizations</a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="voting.html">Voting</a></li>
+                                <div class="dropdown-divider"></div>
+                                <li><a class="dropdown-item" href="income.html">Income</a></li>
+                                <div class="dropdown-divider"></div>
+                                <li><a class="dropdown-item" href="population.html">Population</a></li>
+                                <div class="dropdown-divider"></div>
+                                <li><a class="dropdown-item" href="gdp.html">GDP</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="case_study.html">Case Study</a></li>
+                        <li class="nav-item"><a class="nav-link" href="conclusions.html">Conclusions</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">References</a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="references.html">References</a></li>
+                                <div class="dropdown-divider"></div>
+                                <li><a class="dropdown-item" href="https://github.com/jvalle58/Valle-DATS-6501-Capstone">GitHub</a></li>
+                                <div class="dropdown-divider"></div>
+                                <li><a class="dropdown-item" href="https://public.tableau.com/app/profile/joseph.valle8758">Tableau</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page content-->
+        <div class="container">
+            <div class="text-center mt-5">
+                <h1>Visualizing Counties' Voting Trends from 2004 to 2016</h1>
+                <br>
+                <br>
+                <br>
+                <p>
+                    As a starting point, let us first examine each election's results, with the counties colored by whichever party won a plurality of votes there.
+                    Notice the filters on the right-hand side of the map.
+                    We should not assume that a county's plurality party is the same as the one that won the whole state (as denoted by Victorious Party).
+                    Within a single state, a majority of counties voting for one party does not necessarily mean that party won its electoral votes.
+                    Vote shares toward third parties have also been included.
+                </p>
+                <div class='tableauPlaceholder' id='viz1635793258708' style='position: relative'><noscript><a href='#'><img alt='Geographic Voting ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ca&#47;Capstone_11_01&#47;GeographicVoting&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Capstone_11_01&#47;GeographicVoting' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ca&#47;Capstone_11_01&#47;GeographicVoting&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1635793258708');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1295px';vizElement.style.height='627px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1295px';vizElement.style.height='627px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                <br>
+                <br>
+                <p>
+                    For an alternative view of an individual state's voting data by county, refer to the treemap below.
+                </p>
+                <div class='tableauPlaceholder' id='viz1635793274278' style='position: relative'><noscript><a href='#'><img alt='State Treemap ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ca&#47;Capstone_11_01&#47;StateTreemap&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Capstone_11_01&#47;StateTreemap' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ca&#47;Capstone_11_01&#47;StateTreemap&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1635793274278');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1295px';vizElement.style.height='627px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1295px';vizElement.style.height='627px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                <br>
+                <br>
+                <p>
+                    This second map colors each county in terms of the average margin by which it voted for one party over other from 2004 to 2016.
+                    Recall that this margin represents our target variable, party preference.
+                    As you can see below, deeper shades of red and blue indicate greater support for Republicans and Democrats, respectively, while purple counties are classified as "tossups".
+                    Each county's average income over our time span of interest has also been provided as a detail for later references.
+                </p>
+                <div class='tableauPlaceholder' id='viz1635793296098' style='position: relative'><noscript><a href='#'><img alt='Geographic Party Preference ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ca&#47;Capstone_11_01&#47;GeographicPartyPreference&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Capstone_11_01&#47;GeographicPartyPreference' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ca&#47;Capstone_11_01&#47;GeographicPartyPreference&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1635793296098');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1295px';vizElement.style.height='627px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1295px';vizElement.style.height='627px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                <br>
+                <br>
+                <p>
+                    Finally, the most partisan counties for each party are assembled side-by-side together, with references to their average incomes included.
+                </p>
+                <div class='tableauPlaceholder' id='viz1635793324684' style='position: relative'><noscript><a href='#'><img alt='Most Partisan ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ca&#47;Capstone_11_01&#47;MostPartisan&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Capstone_11_01&#47;MostPartisan' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ca&#47;Capstone_11_01&#47;MostPartisan&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1635793324684');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1295px';vizElement.style.height='627px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1295px';vizElement.style.height='627px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                <br>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- Footer-->
+        <div class="footer">
+            <a>Copyright &copy; Joseph Valle 2021</a>
+        </div>
+    </body>
+</html>
